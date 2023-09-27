@@ -1,0 +1,94 @@
+body {
+    background-image: url(./bg.jpg);
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    overflow: hidden;
+  }
+
+  .lookup {
+    margin-bottom: 20px;
+    width: 350px;
+  }
+  #searchButton {
+    padding: 8px 10px;
+    background-color: green;
+    border: none;
+    width: 352px;
+    cursor: pointer;
+    color: white;
+  }
+
+  #searchButton:hover {
+    background-color: rgb(4, 73, 0);
+    transition: all 0.2s;
+  }
+
+  .lookup p {
+    color: red;
+    background-color: black;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #search {
+    padding: 8px 10px;
+    width: 330px;
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    border: 1px solid green;
+  }
+  .main {
+    height: 450px;
+    width: 350px;
+    backdrop-filter: blur(7px);
+    border: 2px solid rgb(0, 114, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+  }
+  #lodding {
+    color: red;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5;
+  }
+
+  #info {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    padding: 8px 15px;
+    top: 12px;
+  }
+  #ip-info {
+    color: rgb(7, 131, 0);
+    border-bottom: 1px dotted rgb(37, 177, 2);
+    position: relative;
+    top: 25px;
+    transition: all 0.5;
+    padding: 5px 5px;
+  }
+  #real {
+    color: red;
+    margin-top: 35px;
+  }
+  .a {
+    color: red;
+    letter-spacing: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    opacity: 50%;
+  }
